@@ -82,3 +82,10 @@ fun Praktikum3(modifier: Modifier = Modifier) {
 
         Spacer(modifier = Modifier.height(30.dp))
 
+        // Menu Cards
+        MenuCard(title = "Privacy", icon = R.drawable.gembok)
+        MenuCard(title = "Riwayat Transaksi", icon = R.drawable.riwayat_transaksi)
+        MenuCard(title = "Pengaturan", icon = R.drawable.setting)
+
+        Spacer(modifier = Modifier.height(40.dp))
+
