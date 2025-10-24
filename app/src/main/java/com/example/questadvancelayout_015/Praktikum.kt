@@ -64,3 +64,11 @@ fun Praktikum3(modifier: Modifier = Modifier) {
             color = Color.White
         )
 
+        Text(
+            text = "@ifaasmarani",
+            fontSize = 16.sp,
+            color = Color.LightGray
+        )
+
+        Spacer(modifier = Modifier.height(8.dp))
+
