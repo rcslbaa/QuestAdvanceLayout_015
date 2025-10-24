@@ -100,3 +100,14 @@ fun Praktikum3(modifier: Modifier = Modifier) {
         ) {
             Text(text = "Logout", fontSize = 18.sp, color = Color.White)
         }
+
+        Spacer(modifier = Modifier.height(60.dp))
+
+        // Copyright
+        Text(
+            text = "2025 Ifa Asmarani",
+            fontSize = 14.sp,
+            color = Color.LightGray
+        )
+    }
+}
