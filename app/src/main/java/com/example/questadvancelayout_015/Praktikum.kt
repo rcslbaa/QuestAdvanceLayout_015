@@ -140,3 +140,14 @@ fun MenuCard(title: String, icon: Int) {
         shape = RoundedCornerShape(15.dp),
         colors = CardDefaults.cardColors(containerColor = Color(0xFF40444B))
     ) {
+        Row(
+            modifier = Modifier
+                .padding(vertical = 15.dp, horizontal = 20.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            Image(
+                painter = painterResource(id = icon),
+                contentDescription = null,
+                modifier = Modifier.size(24.dp)
+            )
+            Spacer(modifier = Modifier.width(20.dp))
