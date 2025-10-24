@@ -72,3 +72,13 @@ fun Praktikum3(modifier: Modifier = Modifier) {
 
         Spacer(modifier = Modifier.height(8.dp))
 
+        // Deskripsi
+        Text(
+            text = "Back End Developer",
+            fontSize = 16.sp,
+            color = Color.White,
+            textAlign = TextAlign.Center
+        )
+
+        Spacer(modifier = Modifier.height(30.dp))
+
