@@ -129,3 +129,14 @@ fun SocialMediaIcon(icon: Painter) {
 
     }
 }
+
+// ====== Fungsi Reusable untuk Menu ======
+@Composable
+fun MenuCard(title: String, icon: Int) {
+    Card(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(vertical = 6.dp),
+        shape = RoundedCornerShape(15.dp),
+        colors = CardDefaults.cardColors(containerColor = Color(0xFF40444B))
+    ) {
