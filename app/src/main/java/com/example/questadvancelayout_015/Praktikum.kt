@@ -43,3 +43,7 @@ fun Praktikum3(modifier: Modifier = Modifier) {
         )
 
         Spacer(modifier = Modifier.height(5.dp))
+
+        Row(
+            horizontalArrangement = Arrangement.spacedBy(12.dp),
+            modifier = Modifier.padding(vertical = 8.dp)
