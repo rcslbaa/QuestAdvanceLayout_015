@@ -121,3 +121,11 @@ fun SocialMediaIcon(icon: Painter) {
             .background(Color.White),
         contentAlignment = Alignment.Center
     ) {
+        Image(
+            painter = icon,
+            contentDescription = null,
+            modifier = Modifier.size(40.dp)
+        )
+
+    }
+}
