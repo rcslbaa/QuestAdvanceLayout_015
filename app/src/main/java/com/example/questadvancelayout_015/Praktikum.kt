@@ -56,3 +56,11 @@ fun Praktikum3(modifier: Modifier = Modifier) {
 
         Spacer(modifier = Modifier.height(5.dp))
 
+        // Nama & Username
+        Text(
+            text = "Ifa Asmarani",
+            fontSize = 26.sp,
+            fontWeight = FontWeight.Bold,
+            color = Color.White
+        )
+
