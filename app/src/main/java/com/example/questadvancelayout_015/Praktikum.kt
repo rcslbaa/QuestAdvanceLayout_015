@@ -111,3 +111,13 @@ fun Praktikum3(modifier: Modifier = Modifier) {
         )
     }
 }
+
+@Composable
+fun SocialMediaIcon(icon: Painter) {
+    Box(
+        modifier = Modifier
+            .size(40.dp)
+            .clip(CircleShape)
+            .background(Color.White),
+        contentAlignment = Alignment.Center
+    ) {
