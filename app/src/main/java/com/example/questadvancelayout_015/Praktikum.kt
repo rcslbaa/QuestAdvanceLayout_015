@@ -31,3 +31,15 @@ fun Praktikum3(modifier: Modifier = Modifier) {
             .padding(top = 50.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+        // Foto Profil
+        val gambar = painterResource(id = R.drawable.bebek_edit)
+        Image(
+            painter = gambar,
+            contentDescription = null,
+            modifier = Modifier
+                .size(155.dp)
+                .background(Color.White, shape = CircleShape)
+                .padding(8.dp)
+        )
+
+        Spacer(modifier = Modifier.height(5.dp))
