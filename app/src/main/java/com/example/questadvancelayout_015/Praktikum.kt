@@ -89,3 +89,14 @@ fun Praktikum3(modifier: Modifier = Modifier) {
 
         Spacer(modifier = Modifier.height(40.dp))
 
+        // Tombol Logout
+        Button(
+            onClick = {},
+            colors = ButtonDefaults.buttonColors(containerColor = Color.Blue),
+            shape = RoundedCornerShape(30.dp),
+            modifier = Modifier
+                .fillMaxWidth(0.8f)
+                .height(55.dp)
+        ) {
+            Text(text = "Logout", fontSize = 18.sp, color = Color.White)
+        }
