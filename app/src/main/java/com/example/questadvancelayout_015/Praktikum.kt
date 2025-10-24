@@ -151,3 +151,21 @@ fun MenuCard(title: String, icon: Int) {
                 modifier = Modifier.size(24.dp)
             )
             Spacer(modifier = Modifier.width(20.dp))
+
+            // Teks menu
+            Text(
+                text = title,
+                color = Color.White,
+                fontSize = 18.sp,
+                modifier = Modifier.weight(1f) // dorong panah ke kanan
+            )
+
+            // Icon panah kanan
+            Icon(
+                imageVector = Icons.Default.ArrowForward,
+                contentDescription = "Next",
+                tint = Color.LightGray.copy(alpha = 0.8f)
+            )
+        }
+    }
+}
