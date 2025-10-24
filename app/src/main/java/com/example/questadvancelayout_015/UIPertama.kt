@@ -1,6 +1,7 @@
 package com.example.questadvancelayout_015
 
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -30,3 +31,5 @@ fun ActivitasPertama(modifier: Modifier){
     Column(modifier= Modifier
         .padding(top=100.dp)
         .fillMaxSize(),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ){
