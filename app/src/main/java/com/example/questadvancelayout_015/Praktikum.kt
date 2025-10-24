@@ -47,3 +47,12 @@ fun Praktikum3(modifier: Modifier = Modifier) {
         Row(
             horizontalArrangement = Arrangement.spacedBy(12.dp),
             modifier = Modifier.padding(vertical = 8.dp)
+        ) {
+            SocialMediaIcon(icon = painterResource(id = R.drawable.instagram))
+            SocialMediaIcon(icon = painterResource(id = R.drawable.linkedin))
+            SocialMediaIcon(icon = painterResource(id = R.drawable.gmail))
+            SocialMediaIcon(icon = painterResource(id = R.drawable.x))
+        }
+
+        Spacer(modifier = Modifier.height(5.dp))
+
